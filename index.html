@@ -20,42 +20,54 @@
   </head>
   <body>
     <header id="header">
-      <div class="header__logo-nav-cont">
-        <img
-          src="./images/logo.svg"
-          alt="loopstudios' logo"
-          class="header__logo"
-        />
-        <nav class="header__nav" aria-label="primary">
-          <img src="./images/icon-hamburger.svg" alt="hambureger menu icon" />
-          <div class="header__nav-items">
-            <div class="header__nav-item">
-              <a href="#About">About</a>
+      <div class="header__width-cont">
+        <div class="header__logo-nav-cont">
+          <img
+            src="./images/logo.svg"
+            alt="loopstudios' logo"
+            class="header__logo"
+          />
+          <nav class="header__nav" aria-label="primary">
+            <img
+              src="./images/icon-hamburger.svg"
+              alt="hambureger menu icon"
+              class="header__nav-btn mobile-only"
+            />
+            <div class="header__nav-items">
+              <div class="header__nav-item">
+                <a href="#About">About</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="#Careers">Careers</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="#Events">Events</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="#Products">Products</a>
+              </div>
+              <div class="header__nav-item">
+                <a href="#Support">Support</a>
+              </div>
             </div>
-            <div class="header__nav-item">
-              <a href="#Careers">Careers</a>
-            </div>
-            <div class="header__nav-item">
-              <a href="#Events">Events</a>
-            </div>
-            <div class="header__nav-item">
-              <a href="#Products">Products</a>
-            </div>
-            <div class="header__nav-item">
-              <a href="#Support">Support</a>
-            </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
+        <h1 class="header__title">Immersive experiences that deliver</h1>
       </div>
-      <h1 class="header__title">Immersive experiences that deliver</h1>
     </header>
     <main>
       <div id="vr">
         <div class="vr__flex-cont">
-          <img
-            src="./images/mobile/image-interactive.jpg"
-            alt="interactive VR"
-          />
+          <picture>
+            <source
+              srcset="./images/desktop/image-interactive.jpg"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="./images/mobile/image-interactive.jpg"
+              alt="interactive VR"
+            />
+          </picture>
           <div class="vr__txt-cont">
             <h2 class="vr__title">The leader in interactive VR</h2>
             <p class="vr__desc">
@@ -72,45 +84,95 @@
         <button type="button" class="ceations__see-all-btn">See all</button>
         <div class="creations__grid-cont">
           <div class="creations__card">
-            <img src="./images/mobile/image-deep-earth.jpg" alt="deep earth" />
+            <picture>
+              <source
+                srcset="./images/desktop/image-deep-earth.jpg"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./images/mobile/image-deep-earth.jpg"
+                alt="deep earth"
+              />
+            </picture>
             <h3 class="creations__card-title">Deep earth</h3>
           </div>
           <div class="creations__card">
-            <img
-              src="./images/mobile/image-night-arcade.jpg"
-              alt="deep earth"
-            />
+            <picture>
+              <source
+                srcset="./images/desktop/image-night-arcade.jpg"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./images/mobile/image-night-arcade.jpg"
+                alt="night arcade"
+              />
+            </picture>
             <h3 class="creations__card-title">Night arcade</h3>
           </div>
           <div class="creations__card">
-            <img src="./images/mobile/image-soccer-team.jpg" alt="deep earth" />
+            <picture>
+              <source
+                srcset="./images/desktop/image-soccer-team.jpg"
+                media="(min-width: 768px)"
+              />
+              <img src="./images/mobile/image-soccer-team.jpg" alt="soccer" />
+            </picture>
             <h3 class="creations__card-title">Soccer team</h3>
           </div>
           <div class="creations__card">
-            <img src="./images/mobile/image-soccer-team.jpg" alt="deep earth" />
-            <h3 class="creations__card-title">Soccer team VR</h3>
-          </div>
-          <div class="creations__card">
-            <img src="./images/mobile/image-grid.jpg" alt="deep earth" />
+            <picture>
+              <source
+                srcset="./images/desktop/image-grid.jpg"
+                media="(min-width: 768px)"
+              />
+              <img src="./images/mobile/image-grid.jpg" alt="grid racing " />
+            </picture>
             <h3 class="creations__card-title">The grid</h3>
           </div>
           <div class="creations__card">
-            <img src="./images/mobile/image-from-above.jpg" alt="deep earth" />
+            <picture>
+              <source
+                srcset="./images/desktop/image-from-above.jpg"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./images/mobile/image-from-above.jpg"
+                alt="from up above"
+              />
+            </picture>
             <h3 class="creations__card-title">From up above VR</h3>
           </div>
           <div class="creations__card">
-            <img
-              src="./images/mobile/image-pocket-borealis.jpg"
-              alt="deep earth"
-            />
+            <picture>
+              <source
+                srcset="./images/desktop/image-pocket-borealis.jpg"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./images/mobile/image-pocket-borealis.jpg"
+                alt="pocket borealis"
+              />
+            </picture>
             <h3 class="creations__card-title">Pocket borealis</h3>
           </div>
           <div class="creations__card">
-            <img src="./images/mobile/image-curiosity.jpg" alt="deep earth" />
+            <picture>
+              <source
+                srcset="./images/desktop/image-curiosity.jpg"
+                media="(min-width: 768px)"
+              />
+              <img src="./images/mobile/image-curiosity.jpg" alt="curiosity" />
+            </picture>
             <h3 class="creations__card-title">The curiosity</h3>
           </div>
           <div class="creations__card">
-            <img src="./images/mobile/image-fisheye.jpg" alt="deep earth" />
+            <picture>
+              <source
+                srcset="./images/desktop/image-fisheye.jpg"
+                media="(min-width: 768px)"
+              />
+              <img src="./images/mobile/image-fisheye.jpg" alt="fisheye" />
+            </picture>
             <h3 class="creations__card-title">Make it fisheye</h3>
           </div>
         </div>
@@ -147,7 +209,7 @@
         </div>
       </div>
       <div class="footer__nav-copy-cont">
-        <nav class="footer__nav" aria-label="primary">
+        <nav class="footer__nav" aria-label="secondary">
           <div class="footer__nav-item">
             <a href="#About">About</a>
           </div>
